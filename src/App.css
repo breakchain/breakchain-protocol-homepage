@@ -55,7 +55,7 @@ body {
 .footer {
   padding:10px 10px;
   margin:0 0;
-  height: 150px;
+  /* height: 150px; */
   display: block;
   /* position: absolute; */
   /* bottom: 0px; */
@@ -65,9 +65,13 @@ body {
   color:black;
 }
 .partner {
-  display: block;
-  float:left;
-  padding: 5px;
+  /* display: block; */
+  /* float:left; */
+  /* padding: 5px; */
+  flex:1 1 auto;
+}
+.partnerholder {
+  display: flex;
 }
 .enterbutton {
   display:block;

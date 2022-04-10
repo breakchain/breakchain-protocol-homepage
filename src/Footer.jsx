@@ -11,8 +11,8 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer" >
-        <h3>Strategic Partners</h3>
-            <div>
+        <h2 style={{textAlign:'center'}}>Strategic Partners</h2>
+            <div className="partnerholder">
                 <div class="partner">
                     <a href="#">
                         <img src={logo_aws} alt="AWS" />
@@ -49,6 +49,7 @@ class Footer extends Component {
                     </a>
                 </div>
             </div>
+            <div style={{clear:'both'}}></div>
       </div>
      );
   }
