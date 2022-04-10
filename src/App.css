@@ -48,7 +48,7 @@ body {
   background-color: white;
   display: block;
   /* text-align: center; */
-  overflow: scroll;
+  overflow:hidden;
   /* height: 500px; */
   width:100%;
 }
