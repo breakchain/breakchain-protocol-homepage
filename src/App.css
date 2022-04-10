@@ -1,38 +1,109 @@
-.App {
+@font-face {
+  font-family: "poppins";
+  src: url("assets/fonts/Poppins-Regular.woff") format('woff');
+  font-weight:400
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("assets/fonts/Poppins-Bold.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("assets/fonts/Poppins-Italic.woff") format('woff');
+  font-style: italic;
+}
+
+
+body {
+  font-family: poppins;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color:black;
+  /* margin-top :75px; */
+  background-image: url('assets/images/breakchain/homepage-bg-white.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header {
+  background-color: white;
+  position: absolute;
+  display: block;
+  /* overflow:visible; */
+  top: 0px; 
+  left: 0px;
+  min-height: 75px;
+  width:100%;
+  /* margin-bottom:20px; */
+  /* padding:10px 10px; */
+}
+.main {
+  margin-top:115px;
+  margin-bottom:40px;
+  background-color: white;
+  display: block;
+  /* text-align: center; */
+  overflow: scroll;
+  /* height: 500px; */
+  width:100%;
+}
+.footer {
+  padding:10px 10px;
+  margin:0 0;
+  height: 150px;
+  display: block;
+  /* position: absolute; */
+  /* bottom: 0px; */
+  left:0px;
+  width: 100%;
+  background-color: white;
+  color:black;
+}
+.partner {
+  display: block;
+  float:left;
+  padding: 5px;
+}
+.enterbutton {
+  display:block;
+  float:right;
+  padding:3px 20px;
+  margin: 20px 10px;
+  background-color: blue;
+  border-radius:5px;
+}
+.logo {
+  margin: 10px;
+}
+.statbox {
+  display:block;
+  height:80px;
+  width:80px;
+  float:left;
+  background-color: #333333;
+  color:white;
+  margin-bottom: 10px;
+  border-radius:5px;
   text-align: center;
+  font-size: smaller;
+  
+}
+.statholder {
+  display:block;
+  width:80px;
+  margin:10px;
+  float:right;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.priceticker {
+  display: block;
+  float: left;
+  color: black;
+  font-size: 24px;
+  margin:20px
 }
