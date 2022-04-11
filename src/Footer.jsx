@@ -12,32 +12,32 @@ class Footer extends Component {
       <div className="footer" >
         <div className="footertitle">Strategic Partners</div>
             <div className="partnerholder">
-                <div class="partner">
+                <div className="partner">
                     <a href="https://aws.amazon.com/">
                         <img src={logo_aws} alt="AWS" />
                     </a>
                 </div>
-                <div class="partner">
+                <div className="partner">
                     <a href="https://quickswap.exchange/#/swap">
                         <img src={logo_quickswap} alt="guickswap" />
                     </a>
                 </div>
-                <div class="partner">
+                <div className="partner">
                     <a href="https://github.com/">
                         <img src={logo_github} alt="Github" />
                     </a>
                 </div>
-                <div class="partner">
+                <div className="partner">
                     <a href="https://metamask.io/">
                         <img src={logo_metamask} alt="Metamask" />
                     </a>
                 </div>
-                <div class="partner">
+                <div className="partner">
                     <a href="https://polygon.technology/matic-token/">
                         <img src={logo_polygon} alt="Polygon" />
                     </a>
                 </div>
-                <div class="partner">
+                <div className="partner">
                     <a href="https://unstoppabledomains.com/">
                         <img src={logo_ud} alt="Unstoppable_Domains" />
                     </a>
