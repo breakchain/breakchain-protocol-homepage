@@ -5,12 +5,12 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <div className="enterbutton">
-            <a style={{color:'white', textDecoration: 'none'}} href="https://breakchain-protocol.money">
-                Enter
+        {/* <div className="enterbutton">
+            <a style={{color:'white', textDecoration: 'none', fontFamily:'poppins'}} href="https://breakchain-protocol.money">
+                Enter App
             </a>
-        </div>
-        <div className="priceticker">$XCHAIN Price: <span style={{color:'blue'}}>$0.00</span></div>
+        </div> */}
+        <div className="priceticker">$XCHAIN Price: <span style={{color:'blue'}}>0.00</span></div>
       </div>
      );
   }
