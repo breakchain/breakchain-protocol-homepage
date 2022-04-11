@@ -37,20 +37,40 @@ body {
   /* overflow:visible; */
   top: 0px; 
   left: 0px;
-  min-height: 75px;
+  /* min-height: 75px; */
   width:100%;
   /* margin-bottom:20px; */
   /* padding:10px 10px; */
 }
-.main {
-  margin-top:115px;
-  margin-bottom:40px;
-  background-color: white;
+.enterbutton {
+  display:block;
+  float:right;
+  padding:6px 20px;
+  margin: 10px 10px;
+  background-color: blue;
+  border-radius:5px;
+}
+.priceticker {
   display: block;
+  float: left;
+  color: black;
+  font-size:1.5em;
+  /* font-family:'poppins'; */
+  margin: 10px 10px;
+}
+.main {
+  margin-top:155px;
+  margin-bottom:80px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
   /* text-align: center; */
   overflow:hidden;
   /* height: 500px; */
   width:100%;
+}
+.maintext {
+  
 }
 .footer {
   padding:10px 10px;
@@ -64,22 +84,14 @@ body {
   background-color: white;
   color:black;
 }
+.partnerholder {
+  display: flex;
+}
 .partner {
   /* display: block; */
   /* float:left; */
   /* padding: 5px; */
   flex:1 1 auto;
-}
-.partnerholder {
-  display: flex;
-}
-.enterbutton {
-  display:block;
-  float:right;
-  padding:3px 20px;
-  margin: 20px 10px;
-  background-color: blue;
-  border-radius:5px;
 }
 .logo {
   margin: 10px;
@@ -103,11 +115,9 @@ body {
   margin:10px;
   float:right;
 }
-
-.priceticker {
-  display: block;
-  float: left;
-  color: black;
-  font-size: 24px;
-  margin:20px
+.footertitle {
+  text-align:center;
+  margin-top:0;
+  font-size:1.5em;
+  font-family:'Arial Black';
 }
