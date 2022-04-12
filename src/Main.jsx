@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import textimage from './assets/images/breakchain/breakchain_homepage2.png'
+import textimage from './assets/images/breakchain/homepage3.png'
 
 
 class Main extends Component {
