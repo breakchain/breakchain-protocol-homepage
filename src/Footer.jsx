@@ -10,7 +10,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer" >
-        <div className="footertitle">Strategic Partners</div>
+        <div className="footertitle">STRATEGIC PARTNERS</div>
             <div className="partnerholder">
                 <div className="partner">
                     <a href="https://aws.amazon.com/">
