@@ -4,7 +4,6 @@ import textimage2 from './assets/images/breakchain/images/homepage_slices_4_02.p
 import textimage3 from './assets/images/breakchain/images/homepage_slices_4_03.png'
 import textimage4 from './assets/images/breakchain/images/homepage_slices_4_04.png'
 
-
 class Main extends Component {
   render() {
     return (
