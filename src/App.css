@@ -64,6 +64,7 @@ body {
   margin-bottom:80px;
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   /* text-align: center; */
   overflow:hidden;
@@ -87,6 +88,7 @@ body {
 }
 .partnerholder {
   display: flex;
+  flex-wrap: wrap;
 }
 .partner {
   /* display: block; */
