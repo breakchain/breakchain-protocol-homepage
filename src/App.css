@@ -31,7 +31,7 @@ body {
   background-attachment: fixed;
 }
 .header {
-  background-color: white;
+  background-color: #001DA3;
   position: absolute;
   display: block;
   /* overflow:visible; */
@@ -39,6 +39,7 @@ body {
   left: 0px;
   /* min-height: 75px; */
   width:100%;
+  
   /* margin-bottom:20px; */
   /* padding:10px 10px; */
 }
@@ -47,14 +48,14 @@ body {
   float:right;
   padding:6px 20px;
   margin: 10px 10px;
-  background-color: blue;
+  background-color: #32CBFF;
   border-radius:5px;
 }
 .priceticker {
   display: block;
   float: left;
-  color: black;
-  font-size:1.5em;
+  color:white;
+  font-size:1.2em;
   /* font-family:'poppins'; */
   margin: 10px 10px;
 }

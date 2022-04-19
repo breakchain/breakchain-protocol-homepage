@@ -10,7 +10,7 @@ class Header extends Component {
                 Enter App
             </a>
         </div> */}
-        <div className="priceticker">$XCHAIN Price: <span style={{color:'blue'}}>0.00</span></div>
+        <div className="priceticker">XCHAIN Price: <span style={{color:'#32CBFF'}}>$0.00</span></div>
       </div>
      );
   }
