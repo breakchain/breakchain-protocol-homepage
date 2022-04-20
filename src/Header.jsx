@@ -2,7 +2,13 @@ import React, {Component} from 'react'
 
 
 class Header extends Component {
+  constructor() {
+    super();
+  }
+
   render() {
+    const { price } = this.props;
+
     return (
       <div className="header">
         {/* <div className="enterbutton">
@@ -10,7 +16,7 @@ class Header extends Component {
                 Enter App
             </a>
         </div> */}
-        <div className="priceticker">XCHAIN Price: <span style={{color:'#32CBFF'}}>$0.00</span></div>
+        <div className="priceticker">XCHAIN Price: <span style={{ color: '#32CBFF' }}>${ price }</span></div>
       </div>
      );
   }

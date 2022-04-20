@@ -33,7 +33,7 @@ class Footer extends Component {
                         <img src={logo_metamask} alt="Metamask" />
                     </a>
                 </div>
-                <div class="partner">
+                <div className="partner">
                     <a href="https://id.heroku.com/">
                         <img src={logo_heroku} alt="heroku" />
                     </a>
