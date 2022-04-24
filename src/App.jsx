@@ -1,10 +1,21 @@
 import React, {Component} from 'react'
-import './App.css';
+import './App.scss';
 import Header from './Header';
 import Main from './Main';
+import Partners from './Partners';
 import Footer from './Footer';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
 
 class App extends Component {
+  theme = createTheme({
+    palette: {
+      primary: {
+        main: '#32CBFF',
+        secondary: '#32CBFF',
+      },
+    },
+  });
 
   constructor() {
     super();
@@ -15,7 +26,7 @@ class App extends Component {
 
   componentDidMount() {
     this.fetchUsers();
-    this.timer = setInterval(() => this.fetchUsers(), 1000*60*30);// 1000 miliseconds * 60 * 30 = every 30 minutes
+    this.timer = setInterval(() => this.fetchUsers(), 1000*60*1);// 1000 miliseconds * 60 * 30 = every 30 minutes
   };
 
   componentWillUnmount() {
@@ -35,11 +46,14 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Header price={this.state.xchainprice}/>
-        <Main />
-        <Footer />
-      </div>
+      // <ThemeProvider theme={this.theme}>
+        <div>
+          <Header price={this.state.xchainprice}/>
+          <Main />
+          <Partners />
+          <Footer />
+        </div>
+      // </ThemeProvider>
      );
   }
 }

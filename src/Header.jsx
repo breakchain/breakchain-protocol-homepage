@@ -1,21 +1,21 @@
 import React, {Component} from 'react'
+import MyButton from './MyButton';
 
 
 class Header extends Component {
-  constructor() {
-    super();
-  }
-
+  
   render() {
     const { price } = this.props;
 
     return (
       <div className="header">
-        {/* <div className="enterbutton">
-            <a style={{color:'white', textDecoration: 'none', fontFamily:'poppins'}} href="https://breakchain-protocol.money">
-                Enter App
-            </a>
-        </div> */}
+        <div className='enterbutton'>
+          <MyButton
+            name="Enter App"
+            href="https://breakchain-protocol.money"
+          >
+          </MyButton>
+        </div>
         <div className="priceticker">XCHAIN Price: <span style={{ color: '#32CBFF' }}>${ price }</span></div>
       </div>
      );
