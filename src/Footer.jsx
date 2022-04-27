@@ -11,14 +11,16 @@ class Footer extends Component {
              <div className="dapp-menu-social">
                 <Social />
             </div>
-            <div className="emailSection">
+            <div className=".btn-arr">Test</div>
+            {/* <div className="emailSection">
                 <TextField variant="outlined" id="email" label="Email" color="primary" size="small" helperText="Enter Email" focused />
                 <MyButton
                     name="Submit"
                     href=""
+                    
                 >
                 </MyButton>
-            </div>
+            </div> */}
           {/* </div> */}
       </div>
      );
