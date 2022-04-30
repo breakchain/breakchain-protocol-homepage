@@ -6,28 +6,34 @@ import { ReactComponent as Twitter } from "./assets/icons/twitter.svg";
 // import { ReactComponent as Telegram } from "./assets/icons/telegram2.svg";
 import { FacebookOutlined } from "@mui/icons-material";
 import { Telegram } from "@mui/icons-material";
+import { fonticons } from "fontawesome";
 
 export default function Social() {
   return (
     <div className="social-row">
       <Link href="https://twitter.com/breakchainx" target="_blank">
-        <SvgIcon viewBox="-4 0 24 24" color="primary" component={Twitter} />
+      <i class="fa-brands fa-twitter"></i>
+        {/* <SvgIcon viewBox="-4 0 24 24" htmlColor="white" component={Twitter} /> */}
       </Link>
 
       <Link href="https://www.facebook.com/BreakChainX" target="_blank">
-        <SvgIcon viewBox="0 3 24 24" color="primary" component={FacebookOutlined} />
+      <i class="fa-brands fa-facebook"></i>
+        {/* <SvgIcon viewBox="0 3 24 24" htmlColor="white" component={FacebookOutlined} /> */}
       </Link>
 
       <Link href="https://breakchain-protocol.medium.com/" target="_blank">
-        <SvgIcon viewBox="-2 0 24 24" color="primary" component={Medium} />
+      <i class="fa-brands fa-medium"></i>
+        {/* <SvgIcon viewBox="-2 0 24 24" htmlColor="white" component={Medium} /> */}
       </Link>
 
       <Link href="https://github.com/breakchain" target="_blank">
-        <SvgIcon viewBox="-2 0 24 24" color="primary" component={GitHub} />
+      <i class="fa-brands fa-github"></i>
+        {/* <SvgIcon viewBox="-2 0 24 24" htmlColor="white" component={GitHub} /> */}
       </Link>
 
       <Link href="https://t.me/+HQItttSpH29iZWIx " target="_blank">
-        <SvgIcon viewBox="0 3 24 24" color="primary" component={Telegram} />
+      <i class="fa-brands fa-telegram"></i>
+        {/* <SvgIcon viewBox="0 3 24 24" color="white" component={Telegram} /> */}
       </Link>
     </div>
   );

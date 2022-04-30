@@ -117,16 +117,30 @@ body {
   flex-flow: row;
   margin-top: 10px;
   justify-content: space-evenly;
-  padding: 1.3rem;
+  padding: 30px 10px;
+  width: 200px;
   a {
     &:hover {
-      transform: scale(1.1);
+      text-decoration: none;
     }
-    img {
-      height: 20px;
-      width: 20px;
+    i {
+      color:white;
+      font-size:1.5em;
+      &:hover {
+        color:#32CBFF;
+        font-size:1.6em;
+      }
     }
   }
+  
+}
+
+SvgIcon {
+  // height: 20px;
+  // width: 20px;
+  fill:white;
+  color:white;
+  background-color: white;
 }
 .dapp-menu-social {
   display:block;
