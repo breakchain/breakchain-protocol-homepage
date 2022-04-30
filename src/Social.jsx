@@ -12,27 +12,27 @@ export default function Social() {
   return (
     <div className="social-row">
       <Link href="https://twitter.com/breakchainx" target="_blank">
-      <i class="fa-brands fa-twitter"></i>
+      <div class="fa-brands fa-twitter"></div>
         {/* <SvgIcon viewBox="-4 0 24 24" htmlColor="white" component={Twitter} /> */}
       </Link>
 
       <Link href="https://www.facebook.com/BreakChainX" target="_blank">
-      <i class="fa-brands fa-facebook"></i>
+      <div class="fa-brands fa-facebook"></div>
         {/* <SvgIcon viewBox="0 3 24 24" htmlColor="white" component={FacebookOutlined} /> */}
       </Link>
 
       <Link href="https://breakchain-protocol.medium.com/" target="_blank">
-      <i class="fa-brands fa-medium"></i>
+      <div class="fa-brands fa-medium"></div>
         {/* <SvgIcon viewBox="-2 0 24 24" htmlColor="white" component={Medium} /> */}
       </Link>
 
       <Link href="https://github.com/breakchain" target="_blank">
-      <i class="fa-brands fa-github"></i>
+      <div class="fa-brands fa-github"></div>
         {/* <SvgIcon viewBox="-2 0 24 24" htmlColor="white" component={GitHub} /> */}
       </Link>
 
       <Link href="https://t.me/+HQItttSpH29iZWIx " target="_blank">
-      <i class="fa-brands fa-telegram"></i>
+      <div class="fa-brands fa-telegram"></div>
         {/* <SvgIcon viewBox="0 3 24 24" color="white" component={Telegram} /> */}
       </Link>
     </div>
