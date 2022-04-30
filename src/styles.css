@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "poppins";
     src: url("../assets/fonts/Poppins-Regular.woff") format('woff');
     font-weight:400
@@ -14,9 +14,9 @@
     font-family: "myfont";
     src: url("../assets/fonts/Poppins-Italic.woff") format('woff');
     font-style: italic;
-}
+} */
 
-
+/* 
 body {
   font-family: poppins;
   font-weight: bold;
@@ -37,13 +37,11 @@ header {
     top: 0px; 
     left:0px;
     width:100%;
-    /* padding:10px 10px; */
 }
 .main {
     
     text-align: center;
     overflow: scroll;
-    /* height: 500px; */
     width:75%;
 }
 footer {
@@ -91,4 +89,4 @@ footer {
     width:80px;
     margin:10px;
     float:right;
-}
+} */

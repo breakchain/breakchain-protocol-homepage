@@ -18,19 +18,17 @@ const Footer = () => {
 
     return (
       <div className="footer">
-          {/* <div className=''> */}
-             <div className="dapp-menu-social">
-                <Social />
-            </div>
-            <div className="emailSection">
-                <TextField variant="outlined" value={email} onChange={e => setEmail(e.target.value)} placeholder='Enter Email' id="email" label="Email" color="primary" size="small" focused />
-                <MyButton
-                    name="Submit"
-                    handleClick={() => submitEmail()}
-                >
-                </MyButton>
-            </div>
-          {/* </div> */}
+        <div className="dapp-menu-social">
+            <Social />
+        </div>
+        <div className="emailSection">
+            <TextField variant="outlined" value={email} onChange={e => setEmail(e.target.value)} placeholder='Enter Email' id="email" label="Email" color="primary" size="small" focused />
+            <MyButton
+                name="Submit"
+                handleClick={() => submitEmail()}
+            >
+            </MyButton>
+        </div> 
       </div>
      );
 };
