@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
   
 }));
 
-const MyButton = ({ href, name }) => {
+const MyButton = ({ href, name, handleClick }) => {
   const classes = useStyles();
   return (
     <Button
@@ -24,6 +24,7 @@ const MyButton = ({ href, name }) => {
       id="my-button"
       className={classes.button}
       href={href}
+      onClick={handleClick}
       target={`_self`}
     >
       <Typography>{name}</Typography>
