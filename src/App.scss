@@ -37,7 +37,7 @@ body {
   /* overflow:visible; */
   top: 0px; 
   left: 0px;
-  /* min-height: 75px; */
+  min-height: 56px;
   width:100%;
   
   // margin-bottom:80px;
@@ -110,15 +110,16 @@ body {
   background-color: #001DA3;
   display: block;
   width:100%;
-  min-height:150px;
+  height:150px;
 }
 .social-row {
   display: flex;
   flex-flow: row;
-  margin-top: 10px;
-  justify-content: space-evenly;
-  padding: 30px 10px;
-  width: 200px;
+  margin-top: 60px;
+  margin-left: 30px;
+  justify-content: space-between;
+  // padding: 30px 10px;
+  width: 250px;
   a {
     &:hover {
       text-decoration: none;
@@ -128,7 +129,7 @@ body {
       font-size:1.5em;
       &:hover {
         color:#32CBFF;
-        font-size:1.6em;
+        // font-size:1.6em;
       }
     }
   }
@@ -235,7 +236,7 @@ SvgIcon {
   display: inline-block;
 }
 .slides1 {
-  animation:12s linear infinite running slider;
+  animation:30s linear infinite running slider;
   display: inline-block;
   white-space: nowrap;
   overflow:hidden;
