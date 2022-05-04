@@ -3,8 +3,6 @@ import textimage1 from './assets/images/breakchain/images/homepage_slices_4_01.p
 import textimage2 from './assets/images/breakchain/images/homepage_slices_4_02.png'
 import textimage3 from './assets/images/breakchain/images/homepage_slices_4_03.png'
 import textimage4 from './assets/images/breakchain/images/homepage_slices_4_04.png'
-import { gsap } from 'gsap'
-
 class Main extends Component {
   render() {
     return (

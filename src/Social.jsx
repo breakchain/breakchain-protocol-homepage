@@ -1,12 +1,4 @@
-import { SvgIcon, Link } from "@mui/material";
-import { ReactComponent as GitHub } from "./assets/icons/github.svg";
-import { ReactComponent as Medium } from "./assets/icons/medium.svg";
-import { ReactComponent as Twitter } from "./assets/icons/twitter.svg";
-// import { ReactComponent as Facebook } from "./assets/icons/facebook2.svg";
-// import { ReactComponent as Telegram } from "./assets/icons/telegram2.svg";
-import { FacebookOutlined } from "@mui/icons-material";
-import { Telegram } from "@mui/icons-material";
-import { fonticons } from "fontawesome";
+import { Link } from "@mui/material";
 
 export default function Social() {
   return (
