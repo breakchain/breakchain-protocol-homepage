@@ -47,15 +47,13 @@ class App extends Component {
 
   render() {
     return (
-      // <ThemeProvider theme={this.theme}>
         <div>
           <Header price={this.state.xchainprice}/>
           <Main />
-          {/* <Videos /> */}
+          <Videos />
           <Partners />
           <Footer />
         </div>
-      // </ThemeProvider>
      );
   }
 }
