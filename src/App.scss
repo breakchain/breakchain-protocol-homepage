@@ -120,6 +120,7 @@ body {
   justify-content: space-between;
   // padding: 30px 10px;
   width: 250px;
+  
   a {
     &:hover {
       text-decoration: none;
@@ -150,7 +151,7 @@ SvgIcon {
 }
 .emailSection {
   display: flex;
-  
+  // flex-grow: 1;
   // flex-flow: row;
   // margin-top: 60px;
   // margin-left: 30px;
@@ -278,9 +279,9 @@ SvgIcon {
   }
 }
 .videos {
-  margin:20px;
+  margin:50px;
   display:flex;
-  flex-flow: row;
+  flex-flow: row wrap;
 
   justify-content: space-evenly;
   // background-color: white;
@@ -292,5 +293,10 @@ SvgIcon {
   padding:10px;
   color: white;
   // font-family: 'poppins';
+}
+.embedText {
+  text-align: center;
+  color: #001DA3;
+  font-size: large;
 }
 

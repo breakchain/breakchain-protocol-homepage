@@ -18,14 +18,14 @@ const useStyles = makeStyles(theme => ({
 
 
 
-const MyButton = ({ href, name, handleClick }) => {
+const RoundButton = ({ href, name, handleClick }) => {
   return (
-  <Button sx={{backgroundColor:"#32CBFF", color:"#001DA3"}}  onClick={handleClick} href={href} target={`_self`}>
+  <Button sx={{backgroundColor:"#32CBFF",borderRadius:"50px", color:"#001DA3"}}  onClick={handleClick} href={href} target={`_self`}>
     <Typography>{name}</Typography>
   </Button>
   )
 }
-// const MyButton = ({ href, name, handleClick }) => {
+// const RoundButton = ({ href, name, handleClick }) => {
 //   const classes = useStyles();
 //   return (
 //     <Button
@@ -41,4 +41,4 @@ const MyButton = ({ href, name, handleClick }) => {
 //   );
 // };
 
-export default MyButton;
+export default RoundButton;
