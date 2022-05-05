@@ -1,12 +1,9 @@
 import React, { useCallback, useState } from 'react'
 import Social from './Social';
 import { TextField } from '@mui/material';
-import MyButton from './MyButton';
 import { Api, BASE_URL } from './service/api';
 import { StyledEngineProvider } from '@mui/material/styles';
-import AccountCircle from '@mui/icons-material/AccountCircle';
-import InputAdornment from '@mui/material/InputAdornment';
-import InputLabel from '@mui/material/InputLabel';
+import RoundButton from './RoundButton';
 
 
 const Footer = () => {
@@ -36,19 +33,19 @@ const Footer = () => {
               placeholder='Enter Email' 
               id="email" 
               label="Subscribe" 
-              color="primary" 
               size="small" 
+              sx={{color:"#001DA3"}}
               
               focused 
             />
           </div>
            
-            <MyButton
+            <RoundButton
                 className="emailButton"
                 name="Submit"
                 handleClick={() => submitEmail()}
             >
-            </MyButton>
+            </RoundButton>
         </div> 
       </div>
       </StyledEngineProvider>
