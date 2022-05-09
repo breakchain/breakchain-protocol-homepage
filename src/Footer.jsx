@@ -39,6 +39,7 @@ const Footer = () => {
           <div className="emailSection">
             <div className='emailHolder'>
               <div className='textfieldSection'>
+              <div className='textfieldHeader'>Subscribe</div>
                 <TextField 
                   variant="standard" 
                   value={email} 
@@ -47,7 +48,6 @@ const Footer = () => {
                   id="email" 
                   // label="Subscribe" 
                   size="small" 
-                  sx={{marginTop:'15px'}}
                   focused 
                 />
               </div>
