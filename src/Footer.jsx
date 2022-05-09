@@ -21,31 +21,44 @@ const Footer = () => {
     return (
       <StyledEngineProvider injectFirst>
       <div className="footer">
-        <div className="dapp-menu-social">
+        <div className="footerHolder">
+
+          <div className='socialSection'>
             <Social />
-        </div>
-        <div className="emailSection">
-          <div className='textfieldSection'>
-            <TextField 
-              variant="standard" 
-              value={email} 
-              onChange={e => setEmail(e.target.value)} 
-              placeholder='Enter Email' 
-              id="email" 
-              label="Subscribe" 
-              size="small" 
-              sx={{color:"#001DA3"}}
-              
-              focused 
-            />
           </div>
-           
-            <RoundButton
-                className="emailButton"
-                name="Submit"
-                handleClick={() => submitEmail()}
-            >
-            </RoundButton>
+
+          <div className="contactSection">
+            <div className="contactText">
+              Contact Us
+            </div>
+            <div className="contactEmail">
+              info@breakchain.money 
+            </div>
+          </div>
+
+          <div className="emailSection">
+            <div className='emailHolder'>
+              <div className='textfieldSection'>
+                <TextField 
+                  variant="standard" 
+                  value={email} 
+                  onChange={e => setEmail(e.target.value)} 
+                  placeholder='Enter Email' 
+                  id="email" 
+                  // label="Subscribe" 
+                  size="small" 
+                  sx={{marginTop:'15px'}}
+                  focused 
+                />
+              </div>
+              <RoundButton
+                  className="emailButton"
+                  handleClick={() => submitEmail()}
+              >
+              </RoundButton>
+            </div>
+          </div>
+
         </div> 
       </div>
       </StyledEngineProvider>

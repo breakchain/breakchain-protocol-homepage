@@ -4,7 +4,7 @@ export default function Social() {
   return (
     <div className="social-row">
       <Link href="https://twitter.com/breakchainx" target="_blank">
-      <div className="fa-brands fa-twitter"></div>
+      <div className="fa-brands fa-twitter social-icon"></div>
         {/* <SvgIcon viewBox="-4 0 24 24" htmlColor="white" component={Twitter} /> */}
       </Link>
 

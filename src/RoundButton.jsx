@@ -1,5 +1,6 @@
 import { Button, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
+import arrow_icon from './assets/images/arrow.png'
 
 const useStyles = makeStyles(theme => ({
   button: {
@@ -8,8 +9,8 @@ const useStyles = makeStyles(theme => ({
     border: "1px solid #32CBFF",
     fontFamily:"poppins",
     "&:hover": {
-      backgroundColor: "#fff !important",
-      color: "#32CBFF",
+      backgroundColor: "#001DA3 !important",
+      color: "white",
     },
   }
   
@@ -19,9 +20,10 @@ const useStyles = makeStyles(theme => ({
 
 
 const RoundButton = ({ href, name, handleClick }) => {
+  const classes = useStyles();
   return (
-  <Button sx={{backgroundColor:"#32CBFF",borderRadius:"50px", color:"#001DA3"}}  onClick={handleClick} href={href} target={`_self`}>
-    <Typography>{name}</Typography>
+  <Button className={classes.button} sx={{backgroundColor:"#32CBFF",borderRadius:"50px"}}  onClick={handleClick} href={href} target={`_self`}>
+    <img src={arrow_icon}></img>
   </Button>
   )
 }

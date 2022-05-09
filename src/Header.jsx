@@ -9,6 +9,9 @@ class Header extends Component {
 
     return (
       <div className="header">
+        <div className="priceHolder">
+          <span className="priceticker">XCHAIN Price</span> <span className="price">${ price }</span>
+        </div>
         <div className='enterbutton'>
           <MyButton
             name="Enter App"
@@ -16,7 +19,6 @@ class Header extends Component {
           >
           </MyButton>
         </div>
-        <div className="priceticker">XCHAIN Price: <span style={{ color: '#32CBFF' }}>${ price }</span></div>
       </div>
      );
   }
