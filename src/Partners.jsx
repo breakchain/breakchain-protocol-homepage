@@ -49,7 +49,7 @@ class Partners extends Component {
                     </a>
                 </div>
             </div>
-            <div style={{clear:'both'}}></div>
+            {/* <div style={{clear:'both'}}></div> */}
       </div>
      );
   }
