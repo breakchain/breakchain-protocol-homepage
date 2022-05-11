@@ -32,7 +32,7 @@ const Footer = () => {
               Contact Us
             </div>
             <div className="contactEmail">
-              info@breakchain.money 
+            < a href="mailto:info@breakchain.money">info@breakchain.money</a>
             </div>
           </div>
 

@@ -6,10 +6,9 @@ const useStyles = makeStyles(theme => ({
   button: {
     backgroundColor: "#32CBFF",
     color: "white",
-    border: "1px solid #32CBFF",
+    border: "1px solid #32CBFF !important",
     fontFamily:"poppins",
     "&:hover": {
-      backgroundColor: "#001DA3 !important",
       color: "white",
     },
   }
