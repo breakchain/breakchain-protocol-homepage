@@ -24,7 +24,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
   color:black;
-  /* margin-top :75px; */
   background-image: url('assets/images/breakchain/homepage-bg-white.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +31,6 @@ body {
 }
 .header {
   background-color: #001DA3;
-  // position: absolute;
   display: flex;
   justify-content:space-between;
   align-items:center;
@@ -52,23 +50,17 @@ body {
 .price {
   color:#32CBFF;
   font-size:1.2em;
+  margin-left: 10px;
 }
 .enterbutton {
   padding: 0 10px;
 }
-.lb_button {
-  background-color:"#32CBFF";
-  color:"white";
-  &:hover {
-    background-color:"white";
-    color:"#32CBFF";
-  }
-}
+
 
 // #########################
 
 .main {
-  margin-top:125px;
+  margin-top:80px;
   background-color: white;
   overflow:hidden;
   max-width:100%;
@@ -115,19 +107,17 @@ body {
 // #########################
 
 .videos {
-  margin:40px;
+  margin:80px 0;
   display:flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   max-width:100%;
 }
 .embedHolder {
-  // flex: 0 1 auto;
   background-color: #32CBFF;
   padding:10px;
   margin-top:10px;
   color: white;
-  // font-family: 'poppins';
 }
 .embedText {
   text-align: center;
@@ -170,7 +160,6 @@ body {
 }
 .footerHolder {
   display: flex;
-  // flex-flow: row;
   flex-wrap: wrap;
   align-items: center;
   min-height:150px;
@@ -179,14 +168,13 @@ body {
 .socialSection {
   display: flex;
   flex:1 1 auto;
-  padding: 10px 10px;
   justify-content: space-evenly;
 }
 .social-row {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 300px;
   text-decoration: none;
@@ -217,11 +205,17 @@ body {
 }
 .contactText {
   color: white;
-  font-size:1.5em;
+  font-size:1.2em;
 }
 .contactEmail {
   color: white;
-  font-size:1.1em;
+  font-size:.8em;
+  a {
+    color:white !important;
+    &:hover {
+      color:#32CBFF !important;
+    }
+  }
 }
 .emailSection {
   padding: 10px 10px;
