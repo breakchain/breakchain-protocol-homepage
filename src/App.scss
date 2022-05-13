@@ -105,7 +105,16 @@ body {
 }
 
 // #########################
-
+embed {
+  width:600px;
+  height:337px;
+}
+@media screen and (max-width: 600px) {
+  embed {
+    width:400px;
+    height:225px;
+  }
+}
 .videos {
   margin:80px 0;
   display:flex;
@@ -166,6 +175,7 @@ body {
   justify-content: space-between;
 }
 .socialSection {
+  padding:10px 10px;
   display: flex;
   flex:1 1 auto;
   justify-content: space-evenly;

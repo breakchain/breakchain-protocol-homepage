@@ -5,11 +5,11 @@ function Videos() {
     <div className="videos">
       <div className="embedHolder">
         <div className="embedText">Buying XCHAIN</div>
-        <embed width="600px" height="337px" src="https://rumble.com/embed/v10o584/?pub=14gts4" />
+        <embed src="https://rumble.com/embed/v10o584/?pub=14gts4" />
       </div>
       <div className="embedHolder">
       <div className="embedText">Staking XCHAIN</div>
-        <embed width="600px" height="337px" src="https://rumble.com/embed/v10o5o1/?pub=14gts4" />
+        <embed src="https://rumble.com/embed/v10o5o1/?pub=14gts4" />
       </div>
     </div>
     
