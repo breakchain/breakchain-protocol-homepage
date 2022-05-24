@@ -7,7 +7,7 @@ const SlideImage = () => {
 
   return (
     <div className="maintext">
-        <img src={`data:image/png;base64,${scrollimage}`}/>: ''}
+        <img src={`data:image/png;base64,${scrollimage}`}/>
         {/* <img src={homepage5} alt="" /> */}
     </div>
   )
