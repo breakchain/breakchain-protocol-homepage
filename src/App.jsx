@@ -21,7 +21,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      xchainprice: 0
+      xchainprice: 0,
+      xchainapy: 0
     };
   }
 
@@ -41,6 +42,7 @@ class App extends Component {
       .then(
         data => {
           this.setState({ xchainprice: data.body['xchain-price'].toFixed(2) });
+          this.setState({ xchainapy: data.body['APY'].toFixed(0) });
         }
     )
   }
@@ -48,8 +50,11 @@ class App extends Component {
   render() {
     return (
         <div>
-          <Header price={this.state.xchainprice}/>
+          <Header price={this.state.xchainprice} apy={this.state.xchainapy}/>
           <Main />
+          <div className='mainblack'>
+            <h2>test text</h2>
+          </div>
           <Videos />
           <Partners />
           <Footer />

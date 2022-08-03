@@ -47,7 +47,23 @@ body {
   font-size:1em;
   
 }
+
 .price {
+  color:#32CBFF;
+  font-size:1.2em;
+  margin-left: 10px;
+}
+
+.apyHolder {
+  padding: 0 10px;
+}
+
+.apyticker {
+  color:white;
+  font-size:1em;
+
+}
+.apy {
   color:#32CBFF;
   font-size:1.2em;
   margin-left: 10px;
@@ -102,6 +118,15 @@ body {
   to {
     margin-left: 0%;
   }
+}
+
+.mainblack {
+  background-color: black;
+  color: white;
+  min-height: 385px;
+  margin-top: 80px;
+  text-align: center;
+
 }
 
 // #########################
