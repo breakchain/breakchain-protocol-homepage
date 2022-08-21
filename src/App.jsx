@@ -2,9 +2,11 @@ import React, {Component} from 'react'
 import './App.scss';
 import Header from './Header';
 import Main from './Main';
+import MainBlack from './MainBlack';
 import Partners from './Partners';
 import Footer from './Footer';
 import Videos from './Videos';
+import Videos2 from './Videos2';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 
@@ -52,10 +54,9 @@ class App extends Component {
         <div>
           <Header price={this.state.xchainprice} apy={this.state.xchainapy}/>
           <Main />
-          <div className='mainblack'>
-            <h2>test text</h2>
-          </div>
           <Videos />
+          <MainBlack />
+          <Videos2 />
           <Partners />
           <Footer />
         </div>
