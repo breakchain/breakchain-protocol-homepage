@@ -45,15 +45,35 @@ body {
 .priceticker {
   color:white;
   font-size:1em;
-  
 }
+
+.enterbtn {
+  text-align: right;
+}
+
 .price {
+  color:#32CBFF;
+  font-size:1.2em;
+  margin-left: 10px;
+}
+
+.apyHolder {
+  padding: 0 10px;
+}
+
+.apyticker {
+  color:white;
+  font-size:1em;
+
+}
+.apy {
   color:#32CBFF;
   font-size:1.2em;
   margin-left: 10px;
 }
 .enterbutton {
   padding: 0 10px;
+  text-align:center;
 }
 
 
@@ -101,6 +121,44 @@ body {
 
   to {
     margin-left: 0%;
+  }
+}
+
+.mainblack {
+  background-color: black;
+  color: white;
+  min-height: 385px;
+  margin-top: 80px;
+  display: block;
+  text-align: center;
+}
+
+.mainblackHolder {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  min-height: 385px;
+}
+.mainblackLogo {
+  display: block;
+  flex:1 1 auto;
+  padding:60px 10px;
+  // min-height: 385px;
+}
+.blacktext {
+  font-family: futura, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  width: 300px;
+  display: block;
+  flex:1 1 auto;
+  padding:10px 10px;
+  // min-height: 385px;
+  // height: 385px;
+  a {
+    color: #32CBFF;
   }
 }
 
