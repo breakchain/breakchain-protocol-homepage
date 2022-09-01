@@ -18,16 +18,16 @@ class MainBlack extends Component {
             </div>
             <br/>
             <div>
-              The first 369 wallets
-              <br></br>will receive 3.69 free
+              The first 36 wallets
+              <br></br>will receive 9 free
               <br></br>XCHAIN via <a href="https://www.breakchain-protocol.money/#/airdrop" target="_blank">Air Drop</a>
             </div>
           </div>
           <div className='mainblackLogo'>{ <img src={logo} alt="" /> }</div>
           <div className='blacktext'>
-            <div>Earn APY by <a href="https://www.breakchain-protocol.money/#/stake" target="_blank">staking</a> <br></br>your XCHAIN</div>
+            <div>Earn APY by <a href="https://www.breakchain-protocol.money/#/stake" target="_blank">Staking</a> <br></br>your XCHAIN</div>
             <br/>
-            <div>Rewards are distributed <br></br>every 8 hours</div>
+            <div><a href="https://www.breakchain-protocol.money/#/stake" target="_blank">Staking</a> rewards <br></br>are distributed <br></br>every 8 hours</div>
           </div>
         </div>
       </div>
