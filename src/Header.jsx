@@ -13,9 +13,9 @@ class Header extends Component {
         <div className="priceHolder">
           <span className="priceticker">XCHAIN Price</span> <span className="price">${ price }</span>
         </div>
-        <div className="apyHolder">
+        {/* <div className="apyHolder">
           <span className="apy">{ new Intl.NumberFormat('en-US',).format(apy) }%</span><span className="apyticker"> APY</span>
-        </div>
+        </div> */}
         <div className='enterbutton'>
           <MyButton
             name="Enter App"
